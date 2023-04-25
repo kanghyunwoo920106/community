@@ -49,10 +49,10 @@ const SubPage = () => {
   };
 
   let renderPost;
-
+  console.log(sub);
   if (!sub) {
     renderPost = <p className='text-lg text-center'>로딩중...</p>;
-  } else if (sub.lenght === 0) {
+  } else if (sub.posts.length === 0) {
     renderPost = <p className='text-lg text-center'>아직 작성된 포스트가 없습니다.</p>;
   } else {
     renderPost = sub.posts.map((post: Post) => (

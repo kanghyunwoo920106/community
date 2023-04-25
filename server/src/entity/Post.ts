@@ -8,7 +8,8 @@ import {
   ManyToOne,
   OneToMany,
 } from "typeorm";
-import { makeId, slugify } from "../utils/helpers";
+import { slugify } from "transliteration";
+import { makeId } from "../utils/helpers";
 import Comment from "./Comment";
 import BaseEntity from "./Entity";
 import Sub from "./Sub";
