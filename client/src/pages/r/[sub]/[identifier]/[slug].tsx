@@ -61,7 +61,6 @@ const PostPage = () => {
       console.log(error);
     }
   };
-  console.log('post.userVote', post?.userVote);
   return (
     <div className='flex max-w-5xl px-4 pt-5 mx-auto'>
       <div className='w-full md:mr-3 md:w-8/12'>
