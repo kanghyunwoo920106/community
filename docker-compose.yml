@@ -2,7 +2,7 @@ version: "3"
 services:
   db:
     image: postgres:latest
-    container_name: postgres
+    container_name: postgres1
     restart: always
     ports:
       - "5432:5432"
