@@ -35,7 +35,7 @@ const NavBar: React.FC = () => {
               className='w-20 px-2 mr-2 text-sm text-center text-white bg-gray-400 rounded h-7'
               onClick={handleLogout}
             >
-              로그아웃
+              로그아웃22
             </button>
           ) : (
             <>
